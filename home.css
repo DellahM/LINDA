@@ -150,3 +150,6 @@
     opacity: 0.5;
     text-decoration: line-through;
 }
+// before product-container element.
+<button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+<button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
