@@ -33,6 +33,28 @@
     width: 500px;
     display: flex;
 }
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link:hover{
+    opacity: 1;
+}
 <ul class="links-container">
     <li class="link-item"><a href="#" class="link">home</a></li>
     <li class="link-item"><a href="#" class="link">women</a></li>
